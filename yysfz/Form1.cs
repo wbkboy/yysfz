@@ -135,7 +135,7 @@ namespace yysfz
         {
             rtb.BeginInvoke(new EventHandler(delegate
             {
-                rtb.SelectionStart = rtb.Text.Length;//设置插入符位置为文本框末
+                rtb.SelectionStart = rtb.Text.Length;//设置插入符位置为文本框
                 rtb.SelectionColor = color;//设置文本颜色
                 rtb.AppendText(game + "：" + msg + "\r\n");//输出文本，换行
                 rtb.ScrollToCaret();//滚动条滚到到最新插入行
